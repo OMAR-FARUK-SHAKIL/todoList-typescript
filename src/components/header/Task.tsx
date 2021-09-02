@@ -7,16 +7,20 @@ interface IProps {
     date: string
 }
 
-const completion = () =>{
-const p = document.getElementsByClassName('taskCard');
 
-}
 const Task = ({taskName,date}:IProps) => {
+    let val = true;
+    const completion = () =>{
+        val=false;
+        
+        }
     return (
-        <div className="taskCard">
+        <div className={val?"taskCard":"greenCard"}>
             <h1>{taskName}</h1>
             <h3>{date}</h3>
             <button onClick={()=>completion()}>complete</button>
+            <input type="checkbox" name="" id="" />
+            
         </div>
     );
 };

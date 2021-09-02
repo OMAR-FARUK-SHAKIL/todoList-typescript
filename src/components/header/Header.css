@@ -8,3 +8,14 @@
     margin: 30px;
     margin-left:350px;
 }
+
+.taskCard{
+    background-color: green;
+    text-align: center;
+    color: rgb(211, 0, 0);
+    width:50%;
+    height:200px;
+    padding: 20px;
+    margin: 30px;
+    margin-left:350px;
+}
