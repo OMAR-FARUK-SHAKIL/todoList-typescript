@@ -26,7 +26,7 @@ const Header = () => {
 
     return (
         <div className="header">
-            <h1>This is heading</h1>
+            <h1>Track your tasks!!</h1>
 
             <input
                 onChange={handleChange}
